@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="landing-page">
+        <div class="overlay">
+            <h1>We Value Your Feedback</h1>
+            <p>Please take a moment to share your thoughts with us!</p>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form>
+            <h2>Feedback Form</h2>
+
+            <label>Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label >Your Feedback:</label>
+            <textarea  placeholder="Write your feedback here" required></textarea>
+
+            <label >Rate our service:</label>
+            <select  required>
+                <option value="" disabled selected>Select a rating</option>
+                <option value="Excellent">Excellent</option>
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>
+            </select>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+
+  
+</body>
+</html>
